@@ -1,7 +1,7 @@
 import React, {useId} from "react";
 import Skills from "./skills";
 
-export default function AboutMe({data, skills}) {
+export default function AboutMe({data:any, skills}) {
     const {title,body} = data;
     const Id = useId();
     return (
